@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QAction, QApplication, QMainWindow, QMenu, QSystemTrayIcon
 from Ui_setup import main2

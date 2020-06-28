@@ -180,7 +180,7 @@ class mainwindow(QtWidgets.QMainWindow,main1):
         self.textBrowser.clear()
         self.textBrowser_2.clear()
         self.showMinimized() 
-        os.system("python ./use/ScreenShooter.py") # 改
+        os.system("python3 ./use/ScreenShooter.py") # 改
         # strt2=GetText()
         # self.textBrowser.setText(strt2)
         # sct.prc()
@@ -224,7 +224,7 @@ class mainwindow(QtWidgets.QMainWindow,main1):
 
     def MKey_pressEvent(self):
         # sct.prc()
-        os.system("python ./use/ScreenShooter.py") # 改
+        os.system("python3 ./use/ScreenShooter.py") # 改
     def h_emit(self):
         self.hotkey_sig.emit()
     def h0_emit(self):

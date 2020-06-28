@@ -4,14 +4,14 @@
 ___
 # 环境配置
 ## python环境准备
-请确保在终端中<b>"python"</b>为运行该项目的解释器  
+请确保在终端中<b>"python3"</b>为运行该项目的解释器  
 如果不是，请进行如下修改：  
 - 编辑项目文件夹下的 main.py  
-将181、225行中的"python"替换为要使用的解释器  
-示例："python3" "python3.7" "D:\Venv\myenv\Scripts\python.exe"  
+将181、225行中的"python3"替换为要使用的解释器  
+示例："python" "python3.7" "D:\Venv\myenv\Scripts\python.exe"  
 - （可选）编辑启动快捷方式  
 如果要使用快捷方式启动，请修改项目文件夹下的 Start.sh 、Start.bat  
-将其中的"python"替换为要使用的解释器  
+将其中的"python3"替换为要使用的解释器  
 ## 第三方库
 请根据不同系统选择  
 - Windows  
@@ -20,9 +20,10 @@ ___
 ```
 - Linux、MacOS同理使用 requirements-linux.txt 、requirements-macos.txt  
 - 部分linux发行版可能需要从相应的包管理器安装tk环境  
-示例：arch系  
+示例：  
 ```sh
-sudo pacman -S tk
+sudo pacman -S tk # arch
+sudo yum install tk # centos
 ```
 ## macOS请注意
 由于xcffib在macos的测试中不能使用，导致system-hotkey，即快捷键功能不能使用。  

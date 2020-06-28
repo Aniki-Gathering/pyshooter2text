@@ -134,4 +134,4 @@ dmypy.json
 # personal
 /use/area.png 
 /use/tmp.png 
-.vswp
+*.vswp

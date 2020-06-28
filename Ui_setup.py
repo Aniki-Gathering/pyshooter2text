@@ -1,5 +1,5 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
 # Form implementation generated from reading ui file 'c:\Users\29393\Desktop\py项目\setup.ui'
 #
 # Created by: PyQt5 UI code generator 5.14.2

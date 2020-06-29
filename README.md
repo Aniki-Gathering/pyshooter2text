@@ -85,6 +85,3 @@ ___
 ![](_v_images/20200628212155558_25419.png)  
 ![](_v_images/20200628212213550_32381.png)  
 ![](_v_images/20200628212245395_682.png)  
-项目在github和gitee上也有，老师你闲得无聊就star一下吧  
-[github](https://github.com/Aniki-Gathering/pyshooter2text)  
-[gitee](https://gitee.com/SweetCornSausage/pyshooter2text)

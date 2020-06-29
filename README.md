@@ -25,6 +25,7 @@ ___
 sudo pacman -S tk # arch
 sudo yum -y install tk # centos
 ```
+- linux使用的第三方库pyscreenshot需要python版本>=3.6  
 ## macOS请注意
 由于xcffib在macos的测试中不能使用，导致system-hotkey模块，即快捷键功能不能使用。  
 __请使用 main.py.bak 替换 main.py__
@@ -45,6 +46,7 @@ ___
 ## 截图
 ![](_v_images/20200627133947753_29880.png)  
 点击此按钮进入截图，使用鼠标画出需要截下的矩形范围  
+截图保存在./use/tmp.png（全屏）和./use/area.png（范围）  
 截图时可以双击左键或<kbd>Esc</kbd>退出  
 示例：红色矩形为截取的范围  
 ![](_v_images/20200627140534752_1396.png)  
@@ -83,3 +85,6 @@ ___
 ![](_v_images/20200628212155558_25419.png)  
 ![](_v_images/20200628212213550_32381.png)  
 ![](_v_images/20200628212245395_682.png)  
+项目在github和gitee上也有，老师你闲得无聊就star一下吧  
+[github](https://github.com/Aniki-Gathering/pyshooter2text)  
+[gitee](https://gitee.com/SweetCornSausage/pyshooter2text)
